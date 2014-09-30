@@ -1,12 +1,12 @@
 'use strict';
 
-angular.module('tommy-angular-carousel', [])
-.directive('carousel', function ($timeout) {
+angular.module('tomNgCarousel', [])
+.directive('tomCarousel', function ($timeout) {
   return {
     scope: {
-      items: '=carouselItems',
-      interval: '=carouselInterval',
-      duration: '=carouselDuration'
+      items: '=tomCarouselItems',
+      interval: '=tomCarouselInterval',
+      duration: '=tomCarouselDuration'
     },
     replace: true,
     restrict: 'AE',
