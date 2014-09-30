@@ -9,7 +9,7 @@ A simple carousel component for angular
 
 2. include `tommy-angular-carousel.js` after your `angular.js` file
 
-3. adding `tommy-angular-carousel` as a module dependency to your application
+3. adding `tomNgCarousel` as a module dependency to your application
 
 ##Useage
 ###Binding
@@ -19,6 +19,6 @@ A simple carousel component for angular
      tom-carousel-interval="6000"></div>
 ```
 
-- tom-carousel-items: array includes objects with at least the `image` property
+- tom-carousel-items: An array includes objects with at least the `image` property. e.g. `[{image: 'url1'}, {image: 'url2'}]`
 - tom-carousel-interval: autochange interval
 - tom-carousel-duration: transition duration
